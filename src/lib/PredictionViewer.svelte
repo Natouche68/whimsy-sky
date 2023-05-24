@@ -14,6 +14,9 @@
 	<div class="message">
 		{prediction.message}
 	</div>
+	<div class="background-image">
+		<img src={prediction.backgroundImage} alt="" />
+	</div>
 </div>
 
 <style>
@@ -47,5 +50,19 @@
 		font-weight: 400;
 		text-align: center;
 		padding: 0 24px;
+	}
+
+	.background-image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100vh;
+		width: 100vw;
+		z-index: -1;
+		overflow: hidden;
+	}
+
+	.background-image img {
+		height: 100%;
 	}
 </style>

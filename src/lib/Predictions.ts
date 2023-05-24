@@ -9,7 +9,7 @@ export const predictions: Prediction[] = [
 	{
 		name: 'Pizza Sun',
 		icon: 'icons/pizza sun icon.png',
-		backgroundImage: 'https://tse3.mm.bing.net/th?id=OIP.u0enqBe9F9-DTt0jb63i6wAAAA&pid=Api',
+		backgroundImage: 'backgrounds/pizza sun background.png',
 		message: "Phew, there's no ananas on the sun. Only pepperoni, chorizo and ham.",
 	},
 	{
