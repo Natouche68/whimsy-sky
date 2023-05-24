@@ -32,6 +32,8 @@
 		width: 150px;
 		height: 150px;
 		text-align: center;
+		opacity: 1;
+		animation: appear-anim 1s ease;
 	}
 
 	.icon img {
@@ -43,6 +45,8 @@
 		font-size: 48px;
 		font-weight: 600;
 		text-align: center;
+		opacity: 1;
+		animation: appear-anim 1s ease;
 	}
 
 	.message {
@@ -50,6 +54,8 @@
 		font-weight: 400;
 		text-align: center;
 		padding: 0 24px;
+		opacity: 1;
+		animation: appear-anim 1s ease;
 	}
 
 	.background-image {
@@ -60,9 +66,20 @@
 		width: 100vw;
 		z-index: -1;
 		overflow: hidden;
+		opacity: 1;
+		animation: appear-anim 3s ease;
 	}
 
 	.background-image img {
 		height: 100%;
+	}
+
+	@keyframes appear-anim {
+		from {
+			opacity: 0;
+		}
+		to {
+			opacity: 1;
+		}
 	}
 </style>
