@@ -10,7 +10,7 @@ export const predictions: Prediction[] = [
 		name: 'Pizza Sun',
 		icon: 'icons/pizza sun icon.png',
 		backgroundImage: 'backgrounds/pizza sun background.png',
-		message: "Phew, there's no ananas on the sun. Only pepperoni, chorizo and ham.",
+		message: "Phew, there's no pineapple on the sun. Only pepperoni, chorizo and ham.",
 	},
 	{
 		name: 'Cotton candy clouds',
@@ -40,6 +40,6 @@ export const predictions: Prediction[] = [
 		name: 'Cat rain',
 		icon: 'icons/cat rain icon.png',
 		backgroundImage: 'https://tse3.mm.bing.net/th?id=OIP.u0enqBe9F9-DTt0jb63i6wAAAA&pid=Api',
-		message: "Don't forget to bring your favourite umbrella, but make sure it's cat-proof !",
+		message: "Don't forget to bring your favorite umbrella, but make sure it's cat-proof !",
 	},
 ];
