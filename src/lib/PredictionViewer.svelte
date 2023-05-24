@@ -6,7 +6,7 @@
 
 <div class="prediction-viewer">
 	<div class="icon">
-		{prediction.icon}
+		<img src={prediction.icon} alt={prediction.name + ' icon'} />
 	</div>
 	<div class="name">
 		{prediction.name}
@@ -22,14 +22,18 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 60vh;
+		height: 64vh;
 	}
 
 	.icon {
-		width: 128px;
-		height: 128px;
-		font-size: 100px;
+		width: 150px;
+		height: 150px;
 		text-align: center;
+	}
+
+	.icon img {
+		width: 100%;
+		height: 100%;
 	}
 
 	.name {
