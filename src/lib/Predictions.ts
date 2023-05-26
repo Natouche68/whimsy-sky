@@ -15,31 +15,31 @@ export const predictions: Prediction[] = [
 	{
 		name: 'Cotton candy clouds',
 		icon: 'icons/cotton candy clouds icon.png',
-		backgroundImage: 'https://tse3.mm.bing.net/th?id=OIP.u0enqBe9F9-DTt0jb63i6wAAAA&pid=Api',
+		backgroundImage: 'backgrounds/cotton candy clouds background.png',
 		message: 'Let your imagination take flight as the sky transforms into a sugary wonderland.',
 	},
 	{
 		name: 'Rainbow lightning',
 		icon: 'icons/rainbow lightning icon.png',
-		backgroundImage: 'https://tse3.mm.bing.net/th?id=OIP.u0enqBe9F9-DTt0jb63i6wAAAA&pid=Api',
+		backgroundImage: 'backgrounds/rainbow lightning background.png',
 		message: 'Maybe this rainbow lightning gives you superpowers ? Or is there a treasure ?',
 	},
 	{
 		name: 'Hot chocolate floods',
 		icon: 'icons/hot chocolate flood icon.png',
-		backgroundImage: 'https://tse3.mm.bing.net/th?id=OIP.u0enqBe9F9-DTt0jb63i6wAAAA&pid=Api',
+		backgroundImage: 'backgrounds/hot chocolate floods background.png',
 		message: "Considering the amount of chocolate, I think it's the Easter Bunny's secret reserve.",
 	},
 	{
 		name: 'Popcorn hail',
 		icon: 'icons/popcorn hail icon.png',
-		backgroundImage: 'https://tse3.mm.bing.net/th?id=OIP.u0enqBe9F9-DTt0jb63i6wAAAA&pid=Api',
+		backgroundImage: 'backgrounds/popcorn hail background.png',
 		message: 'Free popcorn for your movie night ! You only need to choose the film.',
 	},
 	{
 		name: 'Cat rain',
 		icon: 'icons/cat rain icon.png',
-		backgroundImage: 'https://tse3.mm.bing.net/th?id=OIP.u0enqBe9F9-DTt0jb63i6wAAAA&pid=Api',
+		backgroundImage: 'backgrounds/cat rain background.png',
 		message: "Don't forget to bring your favorite umbrella, but make sure it's cat-proof !",
 	},
 ];
