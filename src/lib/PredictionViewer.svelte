@@ -25,7 +25,11 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		height: 64vh;
+		height: 460px;
+		width: calc(100% - 32px);
+		margin: 64px 16px;
+		background: rgba(255, 255, 255, 0.5);
+		border-radius: 24px;
 	}
 
 	.icon {
@@ -53,7 +57,7 @@
 		font-size: 24px;
 		font-weight: 400;
 		text-align: center;
-		padding: 0 24px;
+		padding: 0 8px;
 		opacity: 1;
 		animation: appear-anim 1s ease;
 	}
